@@ -1,0 +1,184 @@
+.logo {
+    height: 3em;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    background-color: #ff9d00
+}
+
+header nav {
+    flex: 1;
+}
+
+header nav ul{
+    display: flex;
+    justify-content: flex-end;
+}
+
+header nav li {
+    list-style-type: none;
+    padding: 1em;
+}
+
+* {
+    box-sizing: border-box;
+    margin-top: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    font-size: 1.1rem;
+}
+
+h1 {
+    font-size: 5rem;
+    text-transform: uppercase;
+    letter-spacing: 15px;
+    outline: 3px solid white;
+    outline-offset: .25em;
+    display: inline-block;
+    margin: 0.25em 0 0.5em;
+    color: rgba(0, 0, 0, 0.87);
+    font-family: fantasy;
+}
+
+h2 {
+    font-size: 1.8rem;
+    margin-bottom: 0.5em;
+    color: #f7780b;
+}
+
+
+.btn {
+    display: inline-block;
+    padding: .7em 1.7em;
+    color: black;
+    font-weight: 600;
+    text-decoration: none;
+
+}
+
+form p {
+    display: flex;
+    margin-bottom: 1em;
+}
+
+form label {
+    flex-basis: 35%;
+}
+
+
+form input,
+textarea {
+    flex: 3;
+    margin: 0 1em;
+    border-radius: 5px;
+
+}
+
+
+form-button {
+    margin-right: 1em;
+}
+
+.hero-text {
+    padding: 3em;
+    display: flex;
+    flex-direction: column;
+    flex: 5;
+}
+
+
+.hero {
+    background-color: #dcdfed;
+    background-image: url("../images/white%20sneaker%20display.jpg");
+    background-blend-mode: multiply;
+    background-size: cover;
+    height: 100vh;
+    padding: 1em;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.hero-lookbook {
+    background-color: #dcdfed;
+    background-image: url("../images/BOX%20sneakers.jpg");
+    background-blend-mode: multiply;
+    background-size: cover;
+    height: 100vh;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-lookbook h1 {
+    color: aliceblue;
+}
+
+
+
+.cta {
+    background-image: url(../images/addidaswhite.jpg);
+    background-size: cover;
+    padding: 10vh 0;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 95vh;
+}
+
+
+.cta-text {
+    color: darkorange;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    justify-content: center;
+
+}
+
+
+
+
+@media (min-width: 40rem) {
+    header,
+    main,
+    footer,
+    form p {
+        flex-direction: row;
+    }
+    form input,
+    textarea {
+        margin: 2px 0;
+    }
+    .hero-text {
+        flex: none;
+    }
+    form slect {
+        margin: 0;
+    }
+}
+
+
+
+
+footer {
+
+    padding: 0.5rem;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+}
